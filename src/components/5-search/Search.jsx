@@ -2,7 +2,7 @@ import { useSection } from "../../SectionContext.jsx";
 import { useEffect, useState } from "react";
 import { content } from "../../content.js";
 
-import Serie from "../2-catalog/serie.jsx";
+import Serie from "../2-catalog/Serie.jsx";
 
 export default function Search() {
   const {
