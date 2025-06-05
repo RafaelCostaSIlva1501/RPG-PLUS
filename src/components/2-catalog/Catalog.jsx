@@ -1,6 +1,6 @@
 import { useSection } from "../../SectionContext.jsx";
 import { content } from "../../content.js";
-import Serie from "./serie";
+import Serie from "./Serie.jsx";
 
 export default function Catalog({ category }) {
   const {
