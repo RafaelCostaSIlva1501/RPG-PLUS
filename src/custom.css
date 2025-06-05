@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Scrollbar base */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Trilha do scroll */
+::-webkit-scrollbar-track {
+  background: #18181b; /* Mais escuro e neutro */
+}
+
+/* Polegar do scroll */
+::-webkit-scrollbar-thumb {
+  background-color: #3f3f46;
+  border: 2px solid #18181b;
+  border-radius: 2px;
+  transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+/* Hover no polegar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #71717a;
+  border-color: #27272a;
+}
+
+button {
+  display: flex;
+
+  width: min-content;
+
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+body {
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
